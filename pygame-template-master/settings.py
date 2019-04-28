@@ -1,0 +1,12 @@
+import pygame as pg
+
+WIDTH = 720
+HEIGHT = 480
+SPEED = 5
+GRAVITY = 0.5
+PLAYER_JUMP = 10
+FONT_NAME = "arial"
+
+#События!
+SPAWN_ENEMY = pg.USEREVENT + 1
+SHOT_FIRED = pg.USEREVENT + 2
